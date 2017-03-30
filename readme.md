@@ -25,6 +25,6 @@ installation of OpenFrameworks 0.98 for iOS.
 ## Acknowledgments
 This application is based on [OpenFrameworks](http://www.openframeworks.cc) and has been created by [Mehmet 
 Akten](http://www.memo.tv/) and [Martin Kaltenbrunner](http://modin.yuri.at). The included C++ TUIO reference implementation is 
-using the [oscpack library](http://www.rossbencina.com/code/oscpack) by [Ross Bencina](http://www.rossbendina.com/). Please note 
+using the [oscpack library](http://www.rossbencina.com/code/oscpack) by [Ross Bencina](http://www.rossbencina.com/). Please note 
 that the GPL demands the publication of the full source code of any derived work. If you are planning to develop a proprietary 
 application based on this code, we may be able to provide an alternative commercial license option.
