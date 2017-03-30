@@ -1,7 +1,7 @@
 /*
  TuioPad http://www.tuio.org/
  An Open Source TUIO App for iOS based on OpenFrameworks
- (c) 2010-2016 by Mehmet Akten <memo@memo.tv> and Martin Kaltenbrunner <martin@tuio.org>
+ (c) 2010-2017 by Mehmet Akten <memo@memo.tv> and Martin Kaltenbrunner <martin@tuio.org>
  
  TuioPad is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

@@ -1,6 +1,6 @@
 /*
  TUIO C++ Library
- Copyright (c) 2005-2016 Martin Kaltenbrunner <martin@tuio.org>
+ Copyright (c) 2005-2017 Martin Kaltenbrunner <martin@tuio.org>
  
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -302,14 +302,14 @@ void TuioServer::startCursorBundle() {
 	if (source_name) (*oscPacket) << osc::BeginMessage( "/tuio/2Dcur") << "source" << source_name << osc::EndMessage;
 	(*oscPacket) << osc::BeginMessage( "/tuio/2Dcur") << "alive";
 	for (std::list<TuioCursor*>::iterator tuioCursor = cursorList.begin(); tuioCursor!=cursorList.end(); tuioCursor++) {
-		if ((*tuioCursor)->getTuioState()!=TUIO_ADDED) (*oscPacket) << (int32)((*tuioCursor)->getSessionID());
+		/*if ((*tuioCursor)->getTuioState()!=TUIO_ADDED)*/ (*oscPacket) << (int32)((*tuioCursor)->getSessionID());
 	}
 	(*oscPacket) << osc::EndMessage;	
 }
 
 void TuioServer::addCursorMessage(TuioCursor *tcur) {
 	
-	if (tcur->getTuioState()==TUIO_ADDED) return;
+	//if (tcur->getTuioState()==TUIO_ADDED) return;
 
 	float xpos = tcur->getX();
 	float xvel = tcur->getXSpeed();
@@ -407,14 +407,14 @@ void TuioServer::startBlobBundle() {
 	if (source_name) (*oscPacket) << osc::BeginMessage( "/tuio/2Dblb") << "source" << source_name << osc::EndMessage;
 	(*oscPacket) << osc::BeginMessage( "/tuio/2Dblb") << "alive";
 	for (std::list<TuioBlob*>::iterator tuioBlob = blobList.begin(); tuioBlob!=blobList.end(); tuioBlob++) {
-		if ((*tuioBlob)->getTuioState()!=TUIO_ADDED) (*oscPacket) << (int32)((*tuioBlob)->getSessionID());
+		/*if ((*tuioBlob)->getTuioState()!=TUIO_ADDED)*/ (*oscPacket) << (int32)((*tuioBlob)->getSessionID());
 	}
 	(*oscPacket) << osc::EndMessage;	
 }
 
 void TuioServer::addBlobMessage(TuioBlob *tblb) {
 	
-	if (tblb->getTuioState()==TUIO_ADDED) return;
+	//if (tblb->getTuioState()==TUIO_ADDED) return;
 	
 	float xpos = tblb->getX();
 	float xvel = tblb->getXSpeed();

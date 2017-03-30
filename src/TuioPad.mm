@@ -1,7 +1,7 @@
 /*
  TuioPad http://www.tuio.org/
  An Open Source TUIO App for iOS based on OpenFrameworks
- (c) 2010-2016 by Mehmet Akten <memo@memo.tv> and Martin Kaltenbrunner <martin@tuio.org>
+ (c) 2010-2017 by Mehmet Akten <memo@memo.tv> and Martin Kaltenbrunner <martin@tuio.org>
  
  TuioPad is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -33,6 +33,7 @@ TpFingerDrawer		fingerDrawer[OF_MAX_TOUCHES];
 
 ofImage				imageUp;
 ofPoint				rotatedTouchPosition;
+ofPoint				rotatedTouchSize;
 ofPoint				restAccel;
 
 #pragma mark App Loop Callbacks
@@ -118,47 +119,56 @@ void TuioPad::exit() {
 
 #pragma mark Touch Callbacks
 
-void rotXY(float x, float y) {
+void rotXY(float x, float y, float w, float h) {
+	
 	switch([viewController deviceOrientation]) {
 		case UIDeviceOrientationPortrait:
 			rotatedTouchPosition.x = x/ofGetWidth();
 			rotatedTouchPosition.y = y/ofGetHeight();
+			rotatedTouchSize.x = w/ofGetWidth();
+			rotatedTouchSize.y = h/ofGetHeight();
 			break;
 			
 		case UIDeviceOrientationPortraitUpsideDown:
 			rotatedTouchPosition.x = 1 - x/ofGetWidth();
 			rotatedTouchPosition.y = 1 - y/ofGetHeight();
+			rotatedTouchSize.x = w/ofGetWidth();
+			rotatedTouchSize.y = h/ofGetHeight();
 			break;
 			
 		case UIDeviceOrientationLandscapeRight:
 			rotatedTouchPosition.x = 1 - y/ofGetHeight();
 			rotatedTouchPosition.y = x/ofGetWidth();
+			rotatedTouchSize.x = h/ofGetHeight();
+			rotatedTouchSize.y = w/ofGetWidth();
 			break;
 			
 		default:
 		case UIDeviceOrientationLandscapeLeft:
 			rotatedTouchPosition.x = y/ofGetHeight();
 			rotatedTouchPosition.y = 1.0f - x/ofGetWidth();
+			rotatedTouchSize.x = h/ofGetHeight();
+			rotatedTouchSize.y = w/ofGetWidth();
 			break;
 	}
 }
 
 void TuioPad::touchDown(ofTouchEventArgs & touch){
 	fingerDrawer[touch.id].touchDown(touch.x, touch.y);
-	rotXY(touch.x, touch.y);
-	[viewController tuioSender]->touchPressed(touch.id, rotatedTouchPosition.x, rotatedTouchPosition.y, touch.width, touch.height, touch.angle);
+	rotXY(touch.x, touch.y, touch.width, touch.height);
+	[viewController tuioSender]->touchPressed(touch.id, rotatedTouchPosition.x, rotatedTouchPosition.y, rotatedTouchSize.x, rotatedTouchSize.y, touch.angle);
 }
 
 void TuioPad::touchMoved(ofTouchEventArgs & touch){
 	fingerDrawer[touch.id].touchMoved(touch.x, touch.y);
-	rotXY(touch.x, touch.y);
-	[viewController tuioSender]->touchDragged(touch.id, rotatedTouchPosition.x, rotatedTouchPosition.y, touch.width, touch.height, touch.angle);
+	rotXY(touch.x, touch.y, touch.width, touch.height);
+	[viewController tuioSender]->touchDragged(touch.id, rotatedTouchPosition.x, rotatedTouchPosition.y, rotatedTouchSize.x, rotatedTouchSize.y, touch.angle);
 }
 
 void TuioPad::touchUp(ofTouchEventArgs & touch){
 	fingerDrawer[touch.id].touchUp();
-	rotXY(touch.x, touch.y);
-	[viewController tuioSender]->touchReleased(touch.id, rotatedTouchPosition.x, rotatedTouchPosition.y, touch.width, touch.height, touch.angle);
+	rotXY(touch.x, touch.y, touch.width, touch.height);
+	[viewController tuioSender]->touchReleased(touch.id, rotatedTouchPosition.x, rotatedTouchPosition.y, rotatedTouchSize.x, rotatedTouchSize.y, touch.angle);
 }
 
 void TuioPad::touchDoubleTap(ofTouchEventArgs & touch) {}

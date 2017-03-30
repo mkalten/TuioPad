@@ -32,7 +32,6 @@
 		B2B44A741E09DB6C002A0063 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A211E09DB6C002A0063 /* OscTypes.cpp */; };
 		B2B44A761E09DB6C002A0063 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B2B44A241E09DB6C002A0063 /* README */; };
 		B2B44A771E09DB6C002A0063 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = B2B44A251E09DB6C002A0063 /* TODO */; };
-		B2B44A791E09DB6C002A0063 /* FlashSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A281E09DB6C002A0063 /* FlashSender.cpp */; };
 		B2B44A7B1E09DB6C002A0063 /* OneEuroFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A2C1E09DB6C002A0063 /* OneEuroFilter.cpp */; };
 		B2B44A811E09DB6C002A0063 /* TcpSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A361E09DB6C002A0063 /* TcpSender.cpp */; };
 		B2B44A831E09DB6C002A0063 /* TuioBlob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A391E09DB6C002A0063 /* TuioBlob.cpp */; };
@@ -45,7 +44,6 @@
 		B2B44A931E09DB6C002A0063 /* TuioServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A521E09DB6C002A0063 /* TuioServer.cpp */; };
 		B2B44A951E09DB6C002A0063 /* TuioTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A551E09DB6C002A0063 /* TuioTime.cpp */; };
 		B2B44A991E09DB6C002A0063 /* UdpSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A5B1E09DB6C002A0063 /* UdpSender.cpp */; };
-		B2B44A9B1E09DB6C002A0063 /* WebSockSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A5E1E09DB6C002A0063 /* WebSockSender.cpp */; };
 		B2B44A9D1E09DB6C002A0063 /* TuioPad.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2B44A621E09DB6C002A0063 /* TuioPad.mm */; };
 		B2B44A9E1E09DB6C002A0063 /* TuioPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B44A631E09DB6C002A0063 /* TuioPad.xib */; };
 		B2B44A9F1E09DB6C002A0063 /* TuioPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B44A641E09DB6C002A0063 /* TuioPhone.xib */; };
@@ -131,7 +129,6 @@
 		B2B44A221E09DB6C002A0063 /* OscTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscTypes.h; sourceTree = "<group>"; };
 		B2B44A241E09DB6C002A0063 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B2B44A251E09DB6C002A0063 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
-		B2B44A281E09DB6C002A0063 /* FlashSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlashSender.cpp; sourceTree = "<group>"; };
 		B2B44A291E09DB6C002A0063 /* FlashSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashSender.h; sourceTree = "<group>"; };
 		B2B44A2B1E09DB6C002A0063 /* LibExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibExport.h; sourceTree = "<group>"; };
 		B2B44A2C1E09DB6C002A0063 /* OneEuroFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OneEuroFilter.cpp; sourceTree = "<group>"; };
@@ -160,7 +157,6 @@
 		B2B44A561E09DB6C002A0063 /* TuioTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioTime.h; sourceTree = "<group>"; };
 		B2B44A5B1E09DB6C002A0063 /* UdpSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSender.cpp; sourceTree = "<group>"; };
 		B2B44A5C1E09DB6C002A0063 /* UdpSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSender.h; sourceTree = "<group>"; };
-		B2B44A5E1E09DB6C002A0063 /* WebSockSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WebSockSender.cpp; sourceTree = "<group>"; };
 		B2B44A5F1E09DB6C002A0063 /* WebSockSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSockSender.h; sourceTree = "<group>"; };
 		B2B44A611E09DB6C002A0063 /* TuioPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuioPad.h; sourceTree = "<group>"; };
 		B2B44A621E09DB6C002A0063 /* TuioPad.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TuioPad.mm; sourceTree = "<group>"; };
@@ -323,7 +319,6 @@
 		B2B44A261E09DB6C002A0063 /* TUIO */ = {
 			isa = PBXGroup;
 			children = (
-				B2B44A281E09DB6C002A0063 /* FlashSender.cpp */,
 				B2B44A291E09DB6C002A0063 /* FlashSender.h */,
 				B2B44A2B1E09DB6C002A0063 /* LibExport.h */,
 				B2B44A2C1E09DB6C002A0063 /* OneEuroFilter.cpp */,
@@ -352,7 +347,6 @@
 				B2B44A561E09DB6C002A0063 /* TuioTime.h */,
 				B2B44A5B1E09DB6C002A0063 /* UdpSender.cpp */,
 				B2B44A5C1E09DB6C002A0063 /* UdpSender.h */,
-				B2B44A5E1E09DB6C002A0063 /* WebSockSender.cpp */,
 				B2B44A5F1E09DB6C002A0063 /* WebSockSender.h */,
 			);
 			path = TUIO;
@@ -470,7 +464,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = CDB4DSECA2;
@@ -585,8 +579,6 @@
 				B2B44A871E09DB6C002A0063 /* TuioContainer.cpp in Sources */,
 				B2B44A721E09DB6C002A0063 /* OscReceivedElements.cpp in Sources */,
 				B2B44A8D1E09DB6C002A0063 /* TuioManager.cpp in Sources */,
-				B2B44A9B1E09DB6C002A0063 /* WebSockSender.cpp in Sources */,
-				B2B44A791E09DB6C002A0063 /* FlashSender.cpp in Sources */,
 				B2B44A691E09DB6C002A0063 /* UdpSocket.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,7 +609,7 @@
 					./src/TUIO,
 				);
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -639,7 +631,7 @@
 					./src/TUIO,
 				);
 				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				TARGETED_DEVICE_FAMILY = "1,2";
