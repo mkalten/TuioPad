@@ -12,7 +12,8 @@ The application binary can be installed directly from the [iTunes App Store](htt
 TuioPad implements the TUIO 1.1 Cursor profile and is capable of sending multi-touch events to TUIO clients on other devices via 
 a WIFI or 3G network connection. Apart from the standard TUIO/UDP transport via port 3333 this application can also use 
 alternative TUIO/TCP connections and alternative ports. The verbosity of the TUIO messages can be configured in order to improve 
-the protocol robustness for unreliable network connections.
+the protocol robustness for unreliable network connections. The optional TUIO 1.1 Blob messages additionally encode the touch 
+footprint size (unfortunately without rotation), which may be useful in some application scenarios.
 
 The binary provided on the App Store requires iOS 8.0 or later. In order to compile this application you will need a working 
 installation of OpenFrameworks 0.98 for iOS.
