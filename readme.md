@@ -4,7 +4,9 @@ be used in conjunction with any TUIO enabled client application. Its source code
 therefore can be freely used for the creation of open source TUIO enabled mobile applications. Apart from that the TuioPad is 
 also a useful tool for the development and testing of TUIO 1.1 client implementations.
 
-The application binary can be installed directly from the [iTunes App Store](http://itunes.apple.com/us/app/tuiopad/id412446962). If you are looking for a TUIO tracker on Android devices please check out [TUIOdroid](https://code.google.com/p/tuiodroid) instead.
+The application binary can be installed directly from the [iTunes App Store](http://itunes.apple.com/us/app/tuiopad/id412446962). 
+If you are looking for a TUIO tracker on Android devices please check out 
+[TUIOdroid](https://github.com/TobiasSchwirten/tuiodroid) instead.
 
 [![TuioPad video](https://img.youtube.com/vi/8BGawz_It8Y/0.jpg)](https://www.youtube.com/watch?v=8BGawz_It8Y)
 
