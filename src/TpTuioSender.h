@@ -56,7 +56,7 @@ public:
 		tuioServer	= NULL;
 		//host		= "";
 		//port		= 0;
-		verbose		= true;
+		verbose		= false;
 	}
 	
 	~TpTuioSender() {

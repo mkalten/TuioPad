@@ -1,13 +1,13 @@
 TuioPad for iOS Changelog
 
-v1.1 20.02.2017
+v1.1 30.03.2017
 ---------------
 * send optional TUIO 1.1 blobs
 * TUIO/TCP connection handling
 * various GUI improvements
 * support for all screen sizes
 * universal 32bit/64bit build
-* iOS 7 deployment target
+* iOS 8 minimum requirement
 * rebased on OpenFrameworks 0.98
 * various bug fixes
 
