@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="NO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <development version="7000" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TpViewController">
@@ -25,11 +28,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="1">
-            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <view autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" misplaced="YES" id="PeI-jR-0gI">
-                    <rect key="frame" x="349" y="145" width="320" height="480"/>
+                    <rect key="frame" x="222" y="273" width="320" height="480"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <subviews>
                         <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="Logo.png" id="YN1-fV-OIh">
@@ -47,14 +50,14 @@
                                 <bool key="isElement" value="YES"/>
                             </accessibility>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2017 by Mehmet Akten &amp; Martin Kaltenbrunner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QQT-Jq-pic" userLabel="Copyright Label">
                             <rect key="frame" x="20" y="66" width="285" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="qLR-7c-ePW">
@@ -64,7 +67,7 @@
                                 <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="888.888.888.888" borderStyle="roundedRect" placeholder="enter target IP address" minimumFontSize="17" id="Ned-BF-Dm0">
                                     <rect key="frame" x="44" y="20" width="182" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                     <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     <connections>
@@ -76,18 +79,18 @@
                                 <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hki-7T-gXB" userLabel="Detect Button">
                                     <rect key="frame" x="234" y="20" width="56" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
-                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="detect">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                     </state>
                                     <state key="disabled">
-                                        <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <state key="highlighted">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="port" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="UeU-wE-gIL" userLabel="Port Label">
@@ -98,13 +101,13 @@
                                         <bool key="isElement" value="YES"/>
                                     </accessibility>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="8888" borderStyle="roundedRect" placeholder="enter target port" minimumFontSize="17" id="I7f-1e-jeG">
                                     <rect key="frame" x="44" y="58" width="46" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                     <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numbersAndPunctuation" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     <connections>
@@ -116,15 +119,15 @@
                                 <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A0i-ZN-sa9" userLabel="Default Button">
                                     <rect key="frame" x="234" y="58" width="56" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
-                                    <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="default">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <state key="highlighted">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="defaultPortPressed:" destination="-1" eventType="touchUpInside" id="3Rv-QE-Ioo"/>
@@ -133,13 +136,13 @@
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="ZEc-lM-EFI">
                                     <rect key="frame" x="98" y="58" width="128" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="0.13333333999999999" green="0.26666667999999999" blue="0.53333335999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.13333333999999999" green="0.26666667999999999" blue="0.53333335999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <segments>
                                         <segment title="UDP"/>
                                         <segment title="TCP"/>
                                         <segment title="TCP"/>
                                     </segments>
-                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
                                         <action selector="packetSelected:" destination="-1" eventType="valueChanged" id="7XV-M8-9gv"/>
                                     </connections>
@@ -152,7 +155,7 @@
                                         <bool key="isElement" value="YES"/>
                                     </accessibility>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="your network address is 888.888.888.888" lineBreakMode="tailTruncation" minimumFontSize="10" id="UDe-df-pRB">
@@ -163,19 +166,19 @@
                                         <bool key="isElement" value="YES"/>
                                     </accessibility>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <segmentedControl opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" id="ipe-t0-5si">
                                     <rect key="frame" x="10" y="140" width="279" height="29"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <color key="backgroundColor" red="0.13333333999999999" green="0.26666667999999999" blue="0.53333335999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.13333333999999999" green="0.26666667999999999" blue="0.53333335999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <segments>
                                         <segment title="automatic"/>
                                         <segment title="landscape"/>
                                         <segment title="portrait"/>
                                     </segments>
-                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <connections>
                                         <action selector="orientControlChanged:" destination="-1" eventType="valueChanged" id="ysu-7J-Rop"/>
                                     </connections>
@@ -188,20 +191,20 @@
                                         <bool key="isElement" value="YES"/>
                                     </accessibility>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <switch opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="fRD-Ja-0gO">
                                     <rect key="frame" x="241" y="190" width="51" height="31"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="onTintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="onTintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </switch>
                                 <switch opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="1BK-pE-PC6">
                                     <rect key="frame" x="241" y="225" width="51" height="31"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="onTintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="onTintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </switch>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="send additional Blob messages" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="pQy-2m-E52" userLabel="Blob Label">
                                     <rect key="frame" x="10" y="265" width="176" height="21"/>
@@ -211,14 +214,14 @@
                                         <bool key="isElement" value="YES"/>
                                     </accessibility>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <switch opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="zK3-qk-YPA" userLabel="Blob Switch">
                                     <rect key="frame" x="241" y="260" width="51" height="31"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="onTintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="onTintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </switch>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" text="send full bundle updates" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="i5f-ad-SGX" userLabel="Full Updates Label">
                                     <rect key="frame" x="10" y="230" width="140" height="21"/>
@@ -228,24 +231,24 @@
                                         <bool key="isElement" value="YES"/>
                                     </accessibility>
                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                             </subviews>
-                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MLi-ml-GcN" userLabel="Exit Button">
                             <rect key="frame" x="30" y="415" width="80" height="30"/>
                             <autoresizingMask key="autoresizingMask"/>
-                            <color key="backgroundColor" red="0.096866331989999999" green="0.19898033139999999" blue="0.39803138380000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.096866331989999999" green="0.19898033139999999" blue="0.39803138380000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                            <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.13431367280000001" green="0.26787284020000002" blue="0.53174060580000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Exit">
-                                <color key="titleColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleColor" red="0.99991279840000002" green="1" blue="0.99988144639999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <state key="highlighted">
-                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <connections>
                                 <action selector="exitPressed:" destination="-1" eventType="touchUpInside" id="rro-DT-52J"/>
@@ -259,35 +262,35 @@
                                 <bool key="isElement" value="YES"/>
                             </accessibility>
                             <fontDescription key="fontDescription" type="italicSystem" pointSize="11"/>
-                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="dXA-fo-k2Z">
                             <rect key="frame" x="210" y="415" width="80" height="30"/>
                             <autoresizingMask key="autoresizingMask"/>
-                            <color key="backgroundColor" red="0.096916534009999999" green="0.1991149485" blue="0.3938845098" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.096916534009999999" green="0.1991149485" blue="0.3938845098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                            <color key="tintColor" red="0.096866331989999999" green="0.19898033139999999" blue="0.39803138380000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="tintColor" red="0.096866331989999999" green="0.19898033139999999" blue="0.39803138380000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <state key="normal" title="Start">
-                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <state key="disabled">
-                                <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <state key="highlighted">
-                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </state>
                             <connections>
                                 <action selector="connectPressed:" destination="-1" eventType="touchUpInside" id="bSt-ET-vSR"/>
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.13333333999999999" green="0.26666667999999999" blue="0.53333335999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.13333333999999999" green="0.26666667999999999" blue="0.53333335999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="0.13333333999999999" green="0.26666667999999999" blue="0.53333335999999998" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.13333333999999999" green="0.26666667999999999" blue="0.53333335999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
         </view>
         <customObject id="78" userLabel="TpSettings" customClass="TpSettings"/>
@@ -297,7 +300,7 @@
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>
+        <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>
