@@ -18,6 +18,9 @@
 		678E130E17951540005B6D19 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 678E130D17951540005B6D19 /* Default@2x.png */; };
 		678E131017951549005B6D19 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 678E130F17951549005B6D19 /* Default-568h@2x.png */; };
 		67DFA53619F92A69003B3434 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67DFA53419F92A5E003B3434 /* Accelerate.framework */; };
+		B26AD4321E965D0000519F36 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = B26AD4301E965D0000519F36 /* Icon-120.png */; };
+		B26AD4331E965D0000519F36 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = B26AD4311E965D0000519F36 /* Icon-152.png */; };
+		B26AD4351E965E8900519F36 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = B26AD4341E965E8900519F36 /* Icon-76.png */; };
 		B2B449FE1E09DB60002A0063 /* TpSettings.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2B449F91E09DB60002A0063 /* TpSettings.mm */; };
 		B2B449FF1E09DB60002A0063 /* TpTuioSender.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2B449FB1E09DB60002A0063 /* TpTuioSender.mm */; };
 		B2B44A001E09DB60002A0063 /* TpViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B2B449FD1E09DB60002A0063 /* TpViewController.mm */; };
@@ -98,6 +101,9 @@
 		678E130D17951540005B6D19 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "data/Default@2x.png"; sourceTree = "<group>"; };
 		678E130F17951549005B6D19 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "data/Default-568h@2x.png"; sourceTree = "<group>"; };
 		67DFA53419F92A5E003B3434 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B26AD4301E965D0000519F36 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "data/Icon-120.png"; sourceTree = "<group>"; };
+		B26AD4311E965D0000519F36 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-152.png"; path = "data/Icon-152.png"; sourceTree = "<group>"; };
+		B26AD4341E965E8900519F36 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "data/Icon-76.png"; sourceTree = "<group>"; };
 		B2B449F71E09DB60002A0063 /* TpFingerDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TpFingerDrawer.h; sourceTree = "<group>"; };
 		B2B449F81E09DB60002A0063 /* TpSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TpSettings.h; sourceTree = "<group>"; };
 		B2B449F91E09DB60002A0063 /* TpSettings.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TpSettings.mm; sourceTree = "<group>"; };
@@ -355,6 +361,9 @@
 		B2F074201E09DC4F0088CBB6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B26AD4341E965E8900519F36 /* Icon-76.png */,
+				B26AD4301E965D0000519F36 /* Icon-120.png */,
+				B26AD4311E965D0000519F36 /* Icon-152.png */,
 				B2F0742E1E09E2070088CBB6 /* Icon72.png */,
 				B2F0742F1E09E2070088CBB6 /* Logo.png */,
 				B2F074301E09E2070088CBB6 /* Logo@2x.png */,
@@ -468,6 +477,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = CDB4DSECA2;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -519,6 +529,7 @@
 				B2B44A771E09DB6C002A0063 /* TODO in Resources */,
 				B2F0742C1E09E1F20088CBB6 /* Default-Portrait.png in Resources */,
 				B2F074341E09E2070088CBB6 /* Logo@2x.png in Resources */,
+				B26AD4321E965D0000519F36 /* Icon-120.png in Resources */,
 				B2F0742B1E09E1F20088CBB6 /* Default-LandscapeRight.png in Resources */,
 				B2F0742D1E09E1F20088CBB6 /* Default-PortraitUpsideDown.png in Resources */,
 				B2B44A6D1E09DB6C002A0063 /* LICENSE in Resources */,
@@ -526,6 +537,8 @@
 				B2B44A761E09DB6C002A0063 /* README in Resources */,
 				B2F074351E09E2070088CBB6 /* ThisWayUp.jpg in Resources */,
 				B2F0742A1E09E1F20088CBB6 /* Default-LandscapeLeft.png in Resources */,
+				B26AD4331E965D0000519F36 /* Icon-152.png in Resources */,
+				B26AD4351E965E8900519F36 /* Icon-76.png in Resources */,
 				678E130C1795153C005B6D19 /* Default.png in Resources */,
 				678E130E17951540005B6D19 /* Default@2x.png in Resources */,
 				678E131017951549005B6D19 /* Default-568h@2x.png in Resources */,
@@ -598,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = CDB4DSECA2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ofxiOS_Prefix.pch;
@@ -610,8 +624,10 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_NAME:identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.tuio.tuiopad;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "5819e813-4854-4de7-8c1e-a9978abbce16";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: org.tuio.tuiopad";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};
@@ -620,6 +636,7 @@
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = CDB4DSECA2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ofxiOS_Prefix.pch;
@@ -632,8 +649,10 @@
 				);
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_NAME:identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = org.tuio.tuiopad;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "5819e813-4854-4de7-8c1e-a9978abbce16";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: org.tuio.tuiopad";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "$(ARCHS_STANDARD)";
 			};

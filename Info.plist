@@ -13,6 +13,9 @@
 		<string>Icon.png</string>
 		<string>Icon72.png</string>
 		<string>Icon@2x.png</string>
+		<string>Icon-76.png</string>
+		<string>Icon-120.png</string>
+		<string>Icon-152.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
@@ -27,7 +30,7 @@
 	<key>CFBundleSignature</key>
 	<string>TUIO</string>
 	<key>CFBundleVersion</key>
-	<string>1.1.0</string>
+	<string>1</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>UIStatusBarHidden</key>
