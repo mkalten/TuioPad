@@ -30,7 +30,11 @@
 	<key>CFBundleSignature</key>
 	<string>TUIO</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
+	<key>NSCameraUsageDescription</key>
+	<string>not used (OpenFrameworks)</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>not used (OpenFrameworks)</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>UIStatusBarHidden</key>
